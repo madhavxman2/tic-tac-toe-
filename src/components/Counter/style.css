@@ -1,0 +1,30 @@
+h1{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.counter-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-direction: row;
+}
+
+.counter-container button{
+    width: 50px;
+    padding: 0.5rem;
+    border: none;
+    background-color: #171414;
+    font-size: 1.5rem;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.counter-container span{
+    font-size: 2rem;
+}
+
