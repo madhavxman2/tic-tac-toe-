@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import './style.css';
 
+// Mounting and UnMounting phase in React Life Cycle hooks 
 const Counter: React.FC = () => {
   const [value, setValue] = React.useState(0);
   useEffect(()=>{

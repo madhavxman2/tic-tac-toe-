@@ -1,6 +1,6 @@
 import React from "react";
 import Todo from "./components/Todo";
-import Counter from "./components/Counter";
+import Counter from "./components/MountUnmount";
 
 const App: React.FC = () => {
     const itemList=[

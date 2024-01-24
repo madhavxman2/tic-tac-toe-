@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import { useAppDispatch, useAppSelectore } from "./components/redux/hook";
 import { increment,decrement } from "./components/redux/slice";
+import Counter1 from "./components/redux/bearState";
 
 const buttonStyle: React.CSSProperties = {
   backgroundColor: '#04AA6D',
@@ -26,6 +27,7 @@ function App() {
       <h2 style={{textAlign:'center',backgroundColor:'aqua',borderRadius:'10px', paddingInline:'20px'}}>Count is {count}</h2>
     <button style={{...buttonStyle,background:'#d54040'}} onClick={()=>dispatch(decrement())}>-</button>
     </div> 
+    <Counter1/>
     </>
   );
 }
